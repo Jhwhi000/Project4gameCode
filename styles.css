@@ -1,0 +1,78 @@
+fieldset {
+    margin-right: 355px;
+    margin-left: 355px;
+    background-color: black;
+    color: #611d7e;
+    border-color: #611d7e;
+    border-style: groove;
+    border-width: 18px;
+    border-radius: 15px;
+}
+#guess {
+    width: 530px;
+    border-width: 3px;
+    border-color: #611d7e;
+    border-style: groove;
+}
+html {
+
+}
+input.buttons {
+    color: black;
+    background-color: white;
+    border-width: 5px;
+    border-color: #611d7e;
+    border-style: groove;
+    border-radius: 15px;
+}
+h3 {
+    color: #611d7e;
+}
+body {
+    /*background-image: url('blackshard.jpg');*/
+    background-image: url('blackpurple.jpg');
+}
+#blue {
+   color: blue;
+}
+#cyan {
+    color: cyan;
+}
+#gold {
+    color: gold;
+}
+#gray {
+    color: gray;
+}
+#green {
+    color: green;
+}
+#magenta {
+    color: magenta;
+}
+#orange {
+    color: orange;
+}
+#red {
+    color: red;
+}
+#white {
+    color: white;
+}
+#yellow {
+    color: yellow;
+}
+#correct {
+    margin-right: 1px;
+    margin-left: 1px;
+    height: 75px;
+    width: 250px;
+    float: right;
+    border-width: 9px;
+}
+#span1 {
+    font-family: "Times New Roman";
+}
+legend {
+    color: white;
+}

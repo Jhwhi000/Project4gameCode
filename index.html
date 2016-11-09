@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" style="font:80% 'Zapfino'" id="HTML">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="colorGame.js"></script>
+</head>
+<body id="body">
+
+    <fieldset id="field">
+
+        <form id="form">
+
+        <h3 id="h3">
+            Color Guessing Game:
+        </h3>
+
+        <p>
+            I am thinking of one of these ten colors:
+        </p>
+
+        <p>
+            <span id="blue">blue</span>, <span id="cyan">cyan</span>, <span id="gold">gold</span>, <span id="gray">gray</span>,
+            <span id="green">green</span>, <span id="magenta">magenta</span>, <span id="orange">orange</span>, <span id="red">red</span>,
+            <span id="white">white</span>, <span id="yellow">yellow</span>
+        </p>
+
+        <p>
+            What color am I thinking of?
+        </p>
+
+        <p>
+            Press PLAY to begin:
+        </p>
+
+            <p>
+        <div>
+            <input type="button" value="PLAY" onclick="guess()" class="buttons" id="button">
+            <fieldset id="correct"><legend><span id="span1">Correct Color:</span></legend></fieldset>
+        </div>
+            </p>
+
+        <p id="message">
+
+        </p>
+
+    </form>
+
+</fieldset>
+</body>
+</html>
